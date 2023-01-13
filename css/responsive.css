@@ -1,0 +1,54 @@
+@media screen and (max-width: 576px) {
+  body {
+    padding: 0 15px;
+  }
+  header .header-title {
+    font-size: 31px;
+    padding: 0;
+  }
+  header .header-description,
+  .donationText {
+    width: auto;
+  }
+  .donate-section > p,
+  .plan-section p,
+  .planBox span {
+    padding: 0;
+  }
+  .planBox > .box {
+    width: auto;
+  }
+  .donationText {
+    width: auto;
+  }
+  .donation1 {
+    flex-direction: column-reverse !important;
+  }
+  .donation .donationText h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .donation img {
+    width: 100%;
+    height: auto;
+  }
+  .donation p {
+    padding: 0;
+  }
+  .donation > .donationText > .donation-title {
+    padding-right: 0;
+  }
+  .contact-section p {
+    padding: 0;
+  }
+  .contact-section input {
+    width: auto;
+  }
+  .donate-section > input {
+    font-size: 1rem;
+  }
+  .flex-column {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
